@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rll_type" format="enum">
+            <enum name="oval" value="2" />
+            <enum name="round" value="1" />
+            <enum name="circle" value="0" />
+        </attr>
+        <attr name="rll_radius" format="dimension" />
+        <attr name="rll_backgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="rll_type" format="enum">
+            <enum name="oval" value="2" />
+            <enum name="round" value="1" />
+            <enum name="circle" value="0" />
+        </attr>
+        <attr name="rll_radius" format="dimension" />
+        <attr name="rll_backgroundColor" format="color" />
+    </declare-styleable>
+</resources>
